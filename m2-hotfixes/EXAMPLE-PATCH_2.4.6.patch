@@ -1,0 +1,12 @@
+diff --git a/vendor/magento/framework/Mview/View/Subscription.php b/vendor/magento/framework/Mview/View/Subscription.php
+index 933d075..bb58c11 100644
+--- a/vendor/magento/framework/Mview/View/Subscription.php
++++ b/vendor/magento/framework/Mview/View/Subscription.php
+@@ -17,6 +17,7 @@ use Magento\Framework\Mview\ViewInterface;
+ 
+ /**
+  * Mview subscription.
++ * Test Patch File
+  *
+  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
+  */

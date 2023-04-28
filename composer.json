@@ -1,0 +1,27 @@
+{
+    "name": "magento-services/centralized-patcher",
+    "description": "Centralized patcher for patching multiple web stores from a central place",
+    "type": "magento2-component",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento-services/centralized-patcher-composer-plugin": "~0.0.1"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    },
+    "extra": {
+        "map": [
+            [
+                "m2-hotfixes",
+                "m2-hotfixes"
+            ]
+        ],
+        "quality-patches": [
+            "MDVA-30106",
+            "MDVA-12304"
+        ]
+    }
+}
